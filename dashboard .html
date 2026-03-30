@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OmniTools Hub | by badag007</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { background: #0f172a; color: white; font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255,255,255,0.1); }
+        .card-tool { transition: all 0.3s ease; height: 100%; }
+        .card-tool:hover { transform: translateY(-5px); border-color: #38bdf8; box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.3); }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        
+        /* Animasi Tombol WA */
+        .wa-float { position: fixed; bottom: 25px; right: 25px; z-index: 100; transition: 0.3s; }
+        .wa-float:hover { transform: scale(1.1); }
+    </style>
+</head>
+<body class="p-6">
+
+    <a href="https://wa.me/6283117035721?text=Halo%20badag007,%20saya%20mau%20lapor%20bug%20/%20request%20tools..." target="_blank" class="wa-float bg-green-500 text-white p-4 rounded-full shadow-2xl flex items-center gap-2 group">
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="max-w-0 overflow-hidden group-hover:max-w-xs transition-all duration-500 font-bold whitespace-nowrap">Lapor Bug / Request</span>
+    </a>
+
+    <div class="max-w-6xl mx-auto">
+        <header class="text-center mb-12">
+            <h1 class="text-4xl md:text-5xl font-black gradient-text mb-2">OmniTools Hub</h1>
+            <p class="text-slate-400">Toolkit Editing Content Otomatis & Gratis (Open Source)</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            
+            <a href="https://hq-rch.github.io/Rmbg/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-rose-500/20 rounded-lg flex items-center justify-center mb-4 text-rose-500">
+                    <i class="fa-solid fa-image text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">BG Remover</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Hapus background foto otomatis pakai AI dalam hitungan detik.</p>
+            </a>
+
+            <a href="https://hq-rch.github.io/Autosubtitle/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center mb-4 text-purple-500">
+                    <i class="fa-solid fa-closed-captioning text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Auto Subtitle</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Generate file teks .SRT otomatis dari video/audio pake Whisper AI.</p>
+            </a>
+
+            <a href="https://hq-rch.github.io/Auto9-16/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-emerald-500/20 rounded-lg flex items-center justify-center mb-4 text-emerald-500">
+                    <i class="fa-solid fa-mobile-screen text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Video Repurposer</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Ubah video landscape jadi vertikal dengan efek background blur.</p>
+            </a>
+
+            <a href="https://hq-rch.github.io/Vocalremover-/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-blue-500/20 rounded-lg flex items-center justify-center mb-4 text-blue-500">
+                    <i class="fa-solid fa-microphone-slash text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Vocal Remover</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Pisahin vokal dan musik instrumen untuk karaoke (Minus One).</p>
+            </a>
+
+            <a href="https://hq-rch.github.io/Voiccleaner-/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-amber-500/20 rounded-lg flex items-center justify-center mb-4 text-amber-500">
+                    <i class="fa-solid fa-wand-magic-sparkles text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Voice Cleaner</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Bersihin noise rekaman dan bikin suara vokal jadi renyah ala podcast pro.</p>
+            </a>
+
+            <a href="https://hq-rch.github.io/Soundmaker/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-pink-500/20 rounded-lg flex items-center justify-center mb-4 text-pink-500">
+                    <i class="fa-solid fa-music text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Aesthetic Sound</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Bikin musik Sped Up & Reverb otomatis buat sound konten aesthetic.</p>
+            </a>
+
+            <a href="https://hq-rch.github.io/Videotogif/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-indigo-500/20 rounded-lg flex items-center justify-center mb-4 text-indigo-500">
+                    <i class="fa-solid fa-file-video text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Meme Maker (GIF)</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Potong video jadi GIF meme lengkap dengan teks impact klasik.</p>
+            </a>
+
+            <a href="https://hq-rch.github.io/Alat-comot-video-tiktok/" class="card-tool glass p-6 rounded-2xl block">
+                <div class="w-12 h-12 bg-cyan-500/20 rounded-lg flex items-center justify-center mb-4 text-cyan-500">
+                    <i class="fa-brands fa-tiktok text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-2">Alat Comot</h3>
+                <p class="text-slate-400 text-sm leading-relaxed">Comot video TikTok tanpa watermark sat-set langsung simpan ke galeri.</p>
+            </a>
+
+            <a href="https://wa.me/6283117035721?text=Halo%20badag007,%20saya%20mau%20request%20tool%20baru:%20..." target="_blank" class="card-tool border-2 border-dashed border-slate-700 bg-slate-800/30 p-6 rounded-2xl flex flex-col items-center justify-center text-center hover:bg-slate-800/50">
+                <div class="w-12 h-12 bg-slate-500/20 rounded-full flex items-center justify-center mb-4 text-slate-400">
+                    <i class="fa-solid fa-plus text-2xl"></i>
+                </div>
+                <h3 class="text-xl font-bold mb-1">Request Tools?</h3>
+                <p class="text-slate-500 text-xs leading-relaxed">Punya ide tool lain atau nemu bug? Lapor lewat WA bray!</p>
+            </a>
+
+        </div>
+
+        <footer class="mt-20 text-center pb-12">
+            <div class="glass p-8 rounded-3xl max-w-lg mx-auto inline-block border-2 border-amber-500/20">
+                <h4 class="text-lg font-bold mb-2">Puas pake tools gratisan gue?</h4>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Dukung terus development tools keren lainnya dengan traktir kopi bray!</p>
+                <a href="https://saweria.co/badag007" target="_blank" class="bg-amber-500 hover:bg-amber-400 text-slate-900 px-8 py-3 rounded-full font-black transition-all inline-flex items-center gap-2 shadow-lg shadow-amber-500/20">
+                    <i class="fa-solid fa-mug-hot"></i> TRAKTIR SAWERIA
+                </a>
+            </div>
+            <p class="mt-10 text-slate-600 text-xs uppercase tracking-widest font-bold">OmniTools Project © 2026 | Built by badag007</p>
+        </footer>
+    </div>
+
+</body>
+</html>
